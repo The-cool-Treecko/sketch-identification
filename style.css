@@ -2,3 +2,34 @@ body{
     background: linear-gradient(yellow,orange);
     color: black;
 }
+
+@keyframes a {
+    from{
+        box-shadow: 5px 5px 30px white;
+    }
+    to{
+        box-shadow: 10px 10px 40px grey;
+    }
+}
+
+#label, #accuracy {
+    font-size: 20px;
+}
+
+canvas{
+    animation-name: a;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+    margin-top: 180px;
+    border: solid 2px black;
+    border-radius: 20px;
+}
+
+h1{
+    background-color: rgb(250, 166, 30);
+    vertical-align: middle;
+    color:#fbff00;
+    width: 75%;
+    border: 2px solid black;
+    border-radius: 20px;
+}
